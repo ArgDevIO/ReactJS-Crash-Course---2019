@@ -23,6 +23,7 @@ class App extends React.Component {
 
 	// Toggle Complete
 	toggleComplete = id => {
+		console.log(id);
 		this.setState({
 			todos: this.state.todos.map(todo => {
 				if (todo.id === id) {

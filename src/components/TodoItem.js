@@ -11,24 +11,34 @@ export class TodoItem extends Component {
 		};
 	};
 
+	checked = e => {
+		document.addEventListener(
+			'mousedown',
+			event => {
+				if (event.detail > 1) event.preventDefault();
+			},
+			false
+		);
+		this.props.toggleComplete(Number(e.target.id));
+	};
+
 	render() {
 		const { id, title, completed } = this.props.todo;
 
 		return (
 			<div style={this.getStyle()}>
-				<p>
-					<input
-						type="checkbox"
-						checked={completed}
-						onChange={this.props.toggleComplete.bind(this, id)}
-					/>
-					{' ' + title + ' '}
-					<button
-						style={btnStyle}
-						onClick={this.props.deleteItem.bind(this, id)}>
-						X
-					</button>
-				</p>
+				<input
+					type="checkbox"
+					checked={completed}
+					onChange={this.props.toggleComplete.bind(this, id)}
+					style={{ cursor: 'pointer' }}
+				/>
+				<span style={{ cursor: 'pointer' }} id={id} onClick={this.checked}>
+					{' ' + title}
+				</span>
+				<button style={btnStyle} onClick={this.props.deleteItem.bind(this, id)}>
+					X
+				</button>
 			</div>
 		);
 	}
