@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/todolistapp-reactjs/static/css/main.5bc859a5.chunk.css",
-    "main.js": "/todolistapp-reactjs/static/js/main.81098286.chunk.js",
-    "main.js.map": "/todolistapp-reactjs/static/js/main.81098286.chunk.js.map",
-    "runtime-main.js": "/todolistapp-reactjs/static/js/runtime-main.16f3a74e.js",
-    "runtime-main.js.map": "/todolistapp-reactjs/static/js/runtime-main.16f3a74e.js.map",
-    "static/js/2.8e861409.chunk.js": "/todolistapp-reactjs/static/js/2.8e861409.chunk.js",
-    "static/js/2.8e861409.chunk.js.map": "/todolistapp-reactjs/static/js/2.8e861409.chunk.js.map",
-    "index.html": "/todolistapp-reactjs/index.html",
-    "precache-manifest.a7ea6f0b7700f25b238fe87f9402c8be.js": "/todolistapp-reactjs/precache-manifest.a7ea6f0b7700f25b238fe87f9402c8be.js",
-    "service-worker.js": "/todolistapp-reactjs/service-worker.js",
-    "static/css/main.5bc859a5.chunk.css.map": "/todolistapp-reactjs/static/css/main.5bc859a5.chunk.css.map",
-    "static/js/2.8e861409.chunk.js.LICENSE": "/todolistapp-reactjs/static/js/2.8e861409.chunk.js.LICENSE"
+    "main.css": "/TodoListApp-ReactJS/static/css/main.5bc859a5.chunk.css",
+    "main.js": "/TodoListApp-ReactJS/static/js/main.81098286.chunk.js",
+    "main.js.map": "/TodoListApp-ReactJS/static/js/main.81098286.chunk.js.map",
+    "runtime-main.js": "/TodoListApp-ReactJS/static/js/runtime-main.0da9efbf.js",
+    "runtime-main.js.map": "/TodoListApp-ReactJS/static/js/runtime-main.0da9efbf.js.map",
+    "static/js/2.8e861409.chunk.js": "/TodoListApp-ReactJS/static/js/2.8e861409.chunk.js",
+    "static/js/2.8e861409.chunk.js.map": "/TodoListApp-ReactJS/static/js/2.8e861409.chunk.js.map",
+    "index.html": "/TodoListApp-ReactJS/index.html",
+    "precache-manifest.1877f7632b2b5062f76a782b93028cff.js": "/TodoListApp-ReactJS/precache-manifest.1877f7632b2b5062f76a782b93028cff.js",
+    "service-worker.js": "/TodoListApp-ReactJS/service-worker.js",
+    "static/css/main.5bc859a5.chunk.css.map": "/TodoListApp-ReactJS/static/css/main.5bc859a5.chunk.css.map",
+    "static/js/2.8e861409.chunk.js.LICENSE": "/TodoListApp-ReactJS/static/js/2.8e861409.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.16f3a74e.js",
+    "static/js/runtime-main.0da9efbf.js",
     "static/js/2.8e861409.chunk.js",
     "static/css/main.5bc859a5.chunk.css",
     "static/js/main.81098286.chunk.js"
