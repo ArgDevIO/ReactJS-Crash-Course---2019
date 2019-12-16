@@ -71,7 +71,7 @@ class App extends React.Component {
 								</React.Fragment>
 							)}
 						/>
-						<Route path="/about" component={About} />
+						<Route path="/TodoListApp-ReactJS/about" component={About} />
 					</div>
 				</div>
 			</Router>
