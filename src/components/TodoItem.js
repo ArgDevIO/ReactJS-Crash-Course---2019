@@ -18,7 +18,7 @@ export class TodoItem extends Component {
 			<div style={this.getStyle()}>
 				<p>
 					<input
-						type='checkbox'
+						type="checkbox"
 						onChange={this.props.toggleComplete.bind(this, id)}
 					/>
 					{' ' + title + ' '}
@@ -33,8 +33,11 @@ export class TodoItem extends Component {
 	}
 }
 
+// PropTypes
 TodoItem.propTypes = {
-	todo: PropTypes.object.isRequired
+	todo: PropTypes.object.isRequired,
+	toggleComplete: PropTypes.func.isRequired,
+	deleteItem: PropTypes.func.isRequired
 };
 
 const btnStyle = {
